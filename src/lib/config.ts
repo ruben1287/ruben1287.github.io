@@ -4,6 +4,6 @@ export const SITE = {
   profile: "https://louai.site",
   desc: "Mi espacio digital.",
   title: "Ruben Ramirez",
-  ogImage: '/og-image.jpg',
+  ogImage: 'public/avatar.png',
   postPerPage: 6,
 } as const;
