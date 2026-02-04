@@ -1,6 +1,6 @@
 export const PROFILE_INFO = {
   role: 'Devops Engineer',
-  logo: 'Ruebn R',
+  //logo: 'Ruben R',
   //slogan: 'Coding, Creativity, Coffee...',
   displayName: "Ruben Ramirez",
   email: "rubenramirez1287@gmail.com",
