@@ -1,146 +1,71 @@
 import {
-  BunJs,
+  AWS,
+  Azure,
+  Bash,
   Docker,
-  Figma,
-  Framer,
   Git,
-  MongoDB,
-  NextJs,
-  NodeJs,
+  GitLab,
+  Jenkins,
+  PowerShell,
   Python,
-  React,
-  ReactQuery,
-  Redis,
-  Redux,
-  ShadcnUI,
-  TailwindCSS,
-  TypeScript,
-  Appwrite,
-  Astro
 } from "developer-icons";
-
-import HonoIcon from '@/components/ui/icons/hono.astro'
-import FastapiIcon from '@/components/ui/icons/fastapi.astro'
-
+import SonarQubeIcon from "@/components/ui/icons/sonarqube.astro";
+import TfsIcon from "@/components/ui/icons/tfs.astro";
 
 export const TECH_STACK = [
-  // Programming Languages
   {
-    title: "TypeScript",
-    href: "https://www.typescriptlang.org/",
-    icon: TypeScript,
-  },
-  {
-    title: "Python",
-    href: "https://www.python.org/",
-    icon: Python,
-  },
-
-  // Frontend Technologies
-  {
-    title: "React",
-    href: "https://react.dev/",
-    icon: React,
-  },
-  {
-    title: "Next.js",
-    href: "https://nextjs.org/",
-    icon: NextJs,
-  },
-  {
-    title: "Astro.js",
-    href: "https://astro.build/",
-    icon: Astro,
-  },
-  {
-    title: "Tailwind CSS",
-    href: "https://tailwindcss.com/",
-    icon: TailwindCSS,
-  },
-  {
-    title: "Redux",
-    href: "https://redux.js.org/",
-    icon: Redux,
-  },
-  {
-    title: "Zustand",
-    href: "https://zustand-demo.pmnd.rs/",
-  },
-  {
-    title: "React Query",
-    href: "https://tanstack.com/query/latest",
-    icon: ReactQuery,
-  },
-  {
-    title: "shadcn/ui",
-    href: "https://ui.shadcn.com/",
-    icon: ShadcnUI,
-  },
-  {
-    title: "Motion",
-    href: "https://motion.dev/",
-    icon: Framer,
-  },
-
-
-  // Backend Technologies
-  {
-    title: "Node.js",
-    href: "https://nodejs.org/",
-    icon: NodeJs,
-  },
-  {
-    title: "Bun",
-    href: "https://bun.sh/",
-    icon: BunJs,
-  },
-  {
-    title: "FastAPI",
-    href: "https://fastapi.tiangolo.com/",
-    icon: FastapiIcon
-  },
-  {
-    title: "Honojs",
-    href: "https://hono.dev/",
-    icon: HonoIcon
-  },
-  {
-    title: "Appwrite",
-    href: "https://appwrite.io",
-    icon: Appwrite
-  },
-
-  // Databases & Caching
-  {
-    title: "MongoDB",
-    href: "https://www.mongodb.com/",
-    icon: MongoDB,
-  },
-  {
-    title: "Redis",
-    href: "https://redis.io/",
-    icon: Redis,
-  },
-
-  // DevOps & Development Tools
-  {
-    title: "Docker",
-    href: "https://www.docker.com/",
-    icon: Docker,
+    title: "Jenkins",
+    href: "https://www.jenkins.io/",
+    icon: Jenkins,
   },
   {
     title: "Git",
     href: "https://git-scm.com/",
     icon: Git,
   },
-
-
-
-  // Miscellaneous
   {
-    title: "Figma",
-    href: "https://www.figma.com/",
-    icon: Figma,
+    title: "Docker",
+    href: "https://www.docker.com/",
+    icon: Docker,
+  },
+  {
+    title: "Azure DevOps",
+    href: "https://azure.microsoft.com/products/devops/",
+    icon: Azure,
+  },
+  {
+    title: "TFS",
+    href: "https://learn.microsoft.com/azure/devops/server/tfs-is-now-azure-devops-server",
+    icon: TfsIcon,
+  },
+  {
+    title: "AWS",
+    href: "https://aws.amazon.com/",
+    icon: AWS,
+  },
+  {
+    title: "SonarQube",
+    href: "https://www.sonarsource.com/products/sonarqube/",
+    icon: SonarQubeIcon,
+  },
+  {
+    title: "GitLab",
+    href: "https://about.gitlab.com/",
+    icon: GitLab,
+  },
+  {
+    title: "Bash",
+    href: "https://www.gnu.org/software/bash/",
+    icon: Bash,
+  },
+  {
+    title: "PowerShell",
+    href: "https://learn.microsoft.com/powershell/",
+    icon: PowerShell,
+  },
+  {
+    title: "Python",
+    href: "https://www.python.org/",
+    icon: Python,
   },
 ];
-
