@@ -1,6 +1,4 @@
 ---
-import { Picture } from "astro:assets";
-import ImgAvatar from "@/assets/avatar.png";
 import { PROFILE_INFO } from "@/lib/constants/profile";
 
 interface Props {
@@ -15,18 +13,14 @@ const {
   priority = false,
 } = Astro.props;
 
-// Determine image formats for fallback and webp
-const formats = ["avif", "webp"];
 ---
 
-<Picture
+<img
   class:list={[className]}
-  src={ImgAvatar}
-  widths={[size, size * 2]}
-  sizes={`(max-width: ${size}px) 100vw, ${size}px`}
-  formats={formats}
+  src="/avatar.png"
+  width={size}
+  height={size}
   alt={`${PROFILE_INFO.displayName}'s avatar`}
-  quality="mid"
   loading={priority ? "eager" : "lazy"}
   decoding="async"
 />
