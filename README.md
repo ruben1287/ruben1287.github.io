@@ -1,4 +1,4 @@
-## Minimalistic Portfolio Website
+## Minimalistic Portfolio Website 
 
 ![Screenshot](./public/screenshot-dark.png)
 
